@@ -54,8 +54,8 @@ if st.button("🔍 Predict Diabetes Risk"):
         'Nutritional_Status': [nutritional_status]
     })
 
-    prediction = best_model.predict(input_data)[0]
-    prediction_proba = best_model.predict_proba(input_data)[0]
+    prediction = model.predict(input_data)[0]
+    prediction_proba = model.predict_proba(input_data)[0]
 
     st.markdown("---")
     col1, col2 = st.columns(2)
