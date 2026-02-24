@@ -13,7 +13,7 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 # Initialize API client
 api = HfApi(token=HF_TOKEN)
 
-DATASET_PATH = "hf://datasets/Diabetes-Prediction/deabetes.csv"
+DATASET_PATH = "hf://datasets/Diabetes-Prediction/diabetes.csv"
 data = pd.read_csv(DATASET_PATH)
 print("Dataset loaded successfully.")
 
