@@ -23,7 +23,7 @@ def calculate_nutritional_status(x):
     elif x >= 30: 
         return "Obese"
 
-st.title("🏥 Diabetes Prediction Model-Designed by SoloCurioso")
+st.title("🏥 Diabetes Prediction Model")
 st.write("Enter patient information to predict diabetes risk")
 
 # Create input columns

@@ -7,7 +7,7 @@ api = HfApi(token=HF_TOKEN)
 
 api.upload_folder(
     folder_path="pima_project/deployment",     # the local folder containing your files
-    repo_id="sandeep-raghuwanshi28/Diabetes-Prediction",          # the target repo
+    repo_id="sandeepbirajdar8010/Diabetes_Prediction",          # the target repo
     repo_type="space",                      # dataset, model, or space
     path_in_repo="",                          # optional: subfolder path inside the repo
 )

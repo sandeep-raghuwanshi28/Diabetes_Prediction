@@ -3,7 +3,7 @@ from huggingface_hub import HfApi, create_repo
 import os
 
 
-repo_id = "sandeep-raghuwanshi28/Diabetes-Prediction"
+repo_id = "sandeepbirajdar8010/Diabetes_Prediction"
 repo_type = "dataset"
 
 import os
